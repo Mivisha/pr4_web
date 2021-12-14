@@ -132,7 +132,7 @@ function createCardReustarants(restaurant) {
                 </div>
                 <div class="card-info">
                     <div class="rating">
-                        <img src="img/star.svg" alt="star" class="rating-star">
+                        <img src="img/icon/star.svg" alt="star" class="rating-star">
                         ${stars}
                     </div>
                     <div class="price">
@@ -161,7 +161,7 @@ function createReustarantInfo({ stars, name, price }) {
         </h2>
         <div class="card-info">
             <div class="rating">
-                <img src="img/star.svg" alt="star" class="rating-star">
+                <img src="img/icon/star.svg" alt="star" class="rating-star">
                 ${stars}
             </div>
             <div class="price">
@@ -200,7 +200,7 @@ function createCardGood({ description, image, name, price, id }) {
                 <div class="card-buttons">
                     <button class="button button-primary button-add-cart">
                         <span class="button-card-text">В корзину</span>
-                        <img src="img/cart2.svg" alt="shopping-cart" class="card-button-image">
+                        <img src="img/icon/shopping-cart-white.svg" alt="shopping-cart" class="card-button-image">
                     </button>
                     <strong class="card-price-bold card-price">${price} ₽</strong>
                 </div>
